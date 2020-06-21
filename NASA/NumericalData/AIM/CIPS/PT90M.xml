@@ -1,0 +1,57 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/AIM/CIPS/PT90M</ResourceID>
+        <ResourceHeader>
+            <ResourceName>AIM/CIPS noctilucent cloud images and movies, etc.</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <Description>AIM/CIPS (Cloud Imaging and Particle Size) data are available in multiple 
+processing levels: 1a (calibrated and geolocated albedo); 1b (map-
+projected albedo at 5km x 5km resolution); 1c (same as 1b, but with 
+Rayleigh scattering background subtracted); 2 (imagery for 15 orbit-
+specific strips per day, built from 1c data); 3a (daily "daisies" 
+built as composites over level 2 data); 3b (seasonal movies built 
+from level 3a data); 4 (cloud properties such as ice water content 
+and particle radius extracted from lower level data).  Data files 
+for levels 2, 3a and 4 are accessible from 
+http://aim.hamptonu.edu/sds/cal_index_aim.php?instrument=cips,
+with level 2 and 4 data as gzipped netCDF's and level 3a imagery in 
+PNG format.  Brief descriptions of data levels, browse imagery, and
+links to fuller data documentation files at LASP are available from
+http://aim.hamptonu.edu/library/documentation/instruments/cips/cips_docs.html
+Data are available over each polar region about 4 months each year,
+during that region's summer.(</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Cora.Randall</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Info interface page at Hampton U.</Name>
+                <URL>http://aim.hamptonu.edu/library/documentation/instruments/cips/cips_docs.html</URL>
+            </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/AIM/CIPS/All_Data</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/UCOLO</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Data interface page at Hampton U.</Name>
+                <URL>http://aim.hamptonu.edu/sds/cal_index_aim.php?instrument=cips</URL>
+                <Description>For levels 2, 3a, 4 only; see InformationURL for other data</Description>
+            </AccessURL>
+            <Format>NetCDF</Format>
+            <Encoding>GZIP</Encoding>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/AIM/CIPS</InstrumentID>
+        <MeasurementType>ImageIntensity</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2007-06-01T00:00:00</StartDate>
+                <RelativeStopDate>-P2M</RelativeStopDate>
+            </TimeSpan>
+            <Cadence>PT90M</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Earth.NearSurface</ObservedRegion>
+    </NumericalData>
+</Spase>

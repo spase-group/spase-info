@@ -1,0 +1,81 @@
+{
+  "Spase": {
+    "xmlns": "http://www.spase-group.org/data/schema",
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "xsi:schemaLocation": "http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_3.xsd",
+    "Version": "2.3.0",
+    "NumericalData": {
+      "ResourceID": "spase://VSPO/NumericalData/MESSENGER/MAG/PT0.05S",
+      "ResourceHeader": {
+        "ResourceName": "MESSENGER MAG Cruise Phase Data, Resolutions up to 20Hz",
+        "ReleaseDate": "2019-08-05T15:03:35Z",
+        "Description": "This MESSENGER/MAG data set contains cruise-phase\nmagnetic field vectors in RTN coordinates at time resolutions typically\nof 0.5s or 1.0s and sometimes as fine as 0.05s.",
+        "Acknowledgement": "Acknowledge the Experiment Scientist, Brian\nAnderson of JHU_APL, and the organization from which the data were\n acquired.",
+        "Contact": {
+          "PersonID": "spase://SMWG/Person/Brian.J.Anderson",
+          "Role": "PrincipalInvestigator"
+        },
+        "InformationURL": {
+          "Name": "PDS Data Descriptive page",
+          "URL": "https://starbrite.jpl.nasa.gov/ds-view/pds/viewProfile.jsp?dsid=MESS-E/V/H/SW-MAG-3-CDR-CALIBRATED-V1.0"
+        },
+        "PriorID": "spase://VSPO/NumericalData/MESSENGER/MAG/PT0.05S"
+      },
+      "AccessInformation": [
+        {
+          "RepositoryID": "spase://SMWG/Repository/NASA/GSFC/SPDF",
+          "Availability": "Online",
+          "AccessRights": "Open",
+          "AccessURL": [
+            {
+              "Name": "FTP access to files at SPDF",
+              "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/messenger/rtn/",
+              "Description": "In CDF via ftp from CDAWeb"
+            },
+            {
+              "Name": "HTTP access to files at SPDF",
+              "URL": "https://spdf.gsfc.nasa.gov/pub/data/messenger/rtn/",
+              "Description": "In CDF via http from CDAWeb"
+            }
+          ],
+          "Format": "CDF",
+          "Acknowledgement": "Please acknowledge the CDAWeb team at GSFC/SPDF."
+        },
+        {
+          "RepositoryID": "spase://SMWG/Repository/NASA/GSFC/SPDF",
+          "Availability": "Online",
+          "AccessRights": "Open",
+          "AccessURL": [
+            {
+              "Name": "CDAWeb",
+              "URL": "https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MESSENGER_MAG_RTN&index=sp_phys",
+              "ProductKey": "MESSENGER_MAG_RTN",
+              "Description": "Access to MESSENGER interplanetary magnetic field data with subset, plot, list functionalities from CDAWeb"
+            },
+            {
+              "Name": "PDS_PPI",
+              "URL": "https://pds-ppi.igpp.ucla.edu/search/view/?f=yes&id=pds://PPI/MESS-E_V_H_SW-MAG-3-CDR-CALIBRATED-V1.0/DATA/RTN/",
+              "Description": "Access to data and documentation; note \"amp;\" needs to be deleted if\nyou try to cut/paste/use this URL."
+            }
+          ],
+          "Format": "Text"
+        }
+      ],
+      "InstrumentID": "spase://SMWG/Instrument/MESSENGER/Magnetometer",
+      "MeasurementType": "MagneticField",
+      "TemporalDescription": {
+        "TimeSpan": {
+          "StartDate": "2004-08-12T00:00:00",
+          "RelativeStopDate": "-P8M"
+        },
+        "Cadence": "PT0.05S"
+      },
+      "ObservedRegion": [
+        "Heliosphere.Inner",
+        "Mercury",
+        "Venus"
+      ],
+      "Caveats": "See the Information URL given above for intervals more\nlikely to have data quality issues."
+    }
+  }
+}

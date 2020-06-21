@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>SPASE Resource Description</title><script type="application/ld+json">{
+		"@context": "https://schema.org/",
+		"@type" :"Dataset",
+		"name": "NOAA 14 Space Environment Monitor-1 (SEM-1) Medium Energy Proton and Electron Detector (MEPED) Re-processed Particle Count Rates, Fluxes, and Model Fields, 1 min Data",
+     
+ 		"description": "TIROS/NOAA SEM MEPED Reprocessed Data Archive.
+                      
+                   This is the Reprocessed Version of the Medium Energy Proton Electron Detector, MEPED, Data Archive from the TIROS/NOAA Spacecraft. The raw Data from the NOAA Archive have been processed to 1 min Resolution. Magnetic Field Parameters including Geocentric Solar Magnetospheric, GSM, Bx, By, Bz, B/Bmin, and L Shell Values are derived by using four Magnetic Field Models: 1) International Geomagnetic Reference Field, IGRF, 2) Tsyganenko 1989, T89, 3) Tsyganenko 1996, T96, and 4) Tsyganenko 2001, T01. The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Input Parameters and Geomagnetic Indices obtained from the OMNI-2 Data Set. Detector Counts, Omnidirectional and Perpendicular Electron and Proton Fluxes are archived.
+                      
+                   Processing was done by: S.F. Fung, L.C. Tan, and X. Shao, Space Physics Data Facility, Goddard Space Flight Center, NASA, Greenbelt, MD 20771, USA, e-mail: Shing.F.Fung@nasa.gov.",
+		"abstract": "TIROS/NOAA SEM MEPED Reprocessed Data Archive.
+                      
+                   This is the Reprocessed Version of the Medium Energy Proton Electron Detector, MEPED, Data Archive from the TIROS/NOAA Spacecraft. The raw Data from the NOAA Archive have been processed to 1 min Resolution. Magnetic Field Parameters including Geocentric Solar Magnetospheric, GSM, Bx, By, Bz, B/Bmin, and L Shell Values are derived by using four Magnetic Field Models: 1) International Geomagnetic Reference Field, IGRF, 2) Tsyganenko 1989, T89, 3) Tsyganenko 1996, T96, and 4) Tsyganenko 2001, T01. The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Input Parameters and Geomagnetic Indices obtained from the OMNI-2 Data Set. Detector Counts, Omnidirectional and Perpendicular Electron and Proton Fluxes are archived.
+                      
+                   Processing was done by: S.F. Fung, L.C. Tan, and X. Shao, Space Physics Data Facility, Goddard Space Flight Center, NASA, Greenbelt, MD 20771, USA, e-mail: Shing.F.Fung@nasa.gov.",
+		"temporalCoverage": "1990.10.06  2009.30.06",
+		"keywords": [  ],
+        "audience":{
+            "@type": "Audience",
+            "audienceType": ["Space Physicist", "Space Community", "Data Scientists", "Machine Learning Users"]
+        }
+	  }
+	  </script><style>
+/* http://spase-group.org/tools/xmlviewer */
+/* v1.0 | 20160908 */
+
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+body {
+	background-color: #f0f0f0; // #eaf5e9; #277bc0; #d3d3f9;
+	color: black;
+	font-family: Verdana, Arial, sans-serif; 
+	font-size:12px; 
+	line-height: 1.2;
+}
+ 
+h1,h2,h3,h4,h5,h6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight:bold;
+}
+
+h1 {
+	font-size: 140%;
+}
+
+h2 {
+	font-size: 120%;
+}
+
+h3 {
+	font-size: 110%;
+	font-style: oblique;
+}
+
+p {
+	margin-bottom: 0.75ex;
+}
+
+dt {
+	margin-top: 5px;
+	padding-left: 5px;
+	border-top: 1px solid #DDD;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 5ex;
+}
+
+a:link,
+a:visited {
+   color: #277bc0;/* #339;*/
+   font-weight:bolder; 
+   text-decoration:none; 
+}
+
+a:hover {
+   color: blue;
+   font-weight:bolder; 
+   text-decoration:underline; 
+}
+
+ul {
+	list-style: square inside ;
+	margin-bottom: 0.75ex;
+}
+
+table {
+   border: thin solid #666;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+thead,tbody {
+   border: thin solid #666;
+}
+
+td, th {
+   margin: 0;
+	padding: 2px 2px 2px 2px;
+}
+
+th {
+	font-style: oblique;
+}
+
+h1.detail {
+}
+
+.header {
+	width:100%;
+	padding: 1em 10px 1em 10px;
+	color: #fff;
+	background: #5e87b0;
+	font-weight: bold;
+	text-shadow: 0 /*{b-bar-shadow-x}*/ 1px /*{b-bar-shadow-y}*/ 1px /*{b-bar-shadow-radius}*/ #3e6790 /*{b-bar-shadow-color}*/;
+	text-align: center;
+	font-size: 16px;
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	outline: 0 !important;
+}
+
+.inset {
+	margin-left: 22%;
+}
+
+.page {
+	padding: 10px 3% 10px 3%;
+}
+
+div.product {
+	background-color: white;
+	border: thin solid #333;
+	padding: 10px 15px 10px 15px;
+	margin-top: 10px;
+}
+
+div.parameter {
+	margin-top: 10px;
+	padding: 5px 10px 10px 10px;
+	border: thin dotted #333;
+	background-color: #ebebeb;
+}
+
+dt.parameter {
+	margin-top: 10px;
+	padding: 5px 10px 10px 10px;
+	border: thin dotted #333;
+	background-color: #ebebeb;
+}
+
+#toc {
+   border: thin solid #333;
+   background-color: #F5F5F5; 
+   padding: 10px 15px 10px 15px;
+   margin-left: 5%;
+   margin-right: 5%;
+   margin-bottom: 30px;
+}
+
+#toc ol, ul, li {
+	padding-left: 5ex;
+}
+
+#toc ol {
+	list-style-type: decimal;
+	list-style-position: inside; 
+}
+
+#toc ul {
+	list-style-type: square;
+	list-style-position: inside; 
+}
+
+p.version {
+  float: right;
+  width: 100%;
+  margin-top: 5px;
+  text-align: right;
+  font-size: x-small;
+}
+
+p.right {
+  float: right;
+  text-align: right;
+}
+
+.box-title {
+	font-size: 120%;
+	font-weight:bold;
+	text-align: center;
+	border-bottom: 1px solid #DDD;
+}
+
+ul.list {
+	list-style-position: outside;
+	padding-left: 1.5em;
+}
+
+li.list {
+	text-align: left;
+	padding-left: 0px;
+}
+
+.no-break {
+	white-space: nowrap;
+}
+
+p.author {
+	font-size: 120%;
+}
+
+div.brand {
+	width: 100%;
+	text-align: right;
+}
+
+div.abstract {
+	display: table;
+	position: relative;
+	width: 100%;
+}
+
+div.citation {
+}
+
+div.access {
+	float: left;
+	width: 20%;
+	background-color: white;
+	border: thin solid #333;
+	padding: 5px 5px 5px 5px;
+	margin-right: 1em;
+}
+
+a.xml-logo:link,
+a.xml-logo:visited {
+   background: #ff6600;
+   color: #ffffff;
+   font-weight:bolder; 
+   text-decoration:none; 
+   padding-left:2px;
+   padding-right:2px;
+}
+a.xml-logo:hover {
+   text-decoration:underline; 
+}
+
+	  </style></head><body><div><a id="top"/></div><div class="header"><div class="middle">SPASE.info</div></div><div class="page"><div class="spase"><div class="abstract"><div class="access"><p class="box-title">Data Access</p><ul class="list"><li class="list"><a target="_blank" href="ftps://spdf.gsfc.nasa.gov/pub/data/noaa/noaa14/">FTP access to files at SPDF</a></li><li class="list"><a target="_blank" href="https://spdf.gsfc.nasa.gov/pub/data/noaa/noaa14/">HTTP access to files at SPDF</a></li><li class="list"><a target="_blank" href="https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=NOAA14_MEPED1MIN_SEM&amp;index=sp_phys">CDAWeb</a></li></ul></div><div class="citation inset"><h1><a name="spase://NOAA/NumericalData/POES/14/SEM/MEPED/KeyParameter/PT1M">NOAA 14 Space Environment Monitor-1 (SEM-1) Medium Energy Proton and Electron Detector (MEPED) Re-processed Particle Count Rates, Fluxes, and Model Fields, 1 min Data</a></h1><p><dt>ResourceID</dt><dd>spase://NOAA/NumericalData/POES/14/SEM/MEPED/KeyParameter/PT1M</dd></p><p><dt>Description</dt><dd><p>TIROS/NOAA SEM MEPED Reprocessed Data Archive.</p>
+<pre><code>               This is the Reprocessed Version of the Medium Energy Proton Electron Detector, MEPED, Data Archive from the TIROS/NOAA Spacecraft. The raw Data from the NOAA Archive have been processed to 1 min Resolution. Magnetic Field Parameters including Geocentric Solar Magnetospheric, GSM, Bx, By, Bz, B/Bmin, and L Shell Values are derived by using four Magnetic Field Models: 1) International Geomagnetic Reference Field, IGRF, 2) Tsyganenko 1989, T89, 3) Tsyganenko 1996, T96, and 4) Tsyganenko 2001, T01. The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Input Parameters and Geomagnetic Indices obtained from the OMNI-2 Data Set. Detector Counts, Omnidirectional and Perpendicular Electron and Proton Fluxes are archived.
+                  
+               Processing was done by: S.F. Fung, L.C. Tan, and X. Shao, Space Physics Data Facility, Goddard Space Flight Center, NASA, Greenbelt, MD 20771, USA, e-mail: Shing.F.Fung@nasa.gov.</code></pre>
+</dd></p></div></div><div><p class="right"><a target="_blank" href="PT1M.xml">View XML</a> | <a target="_blank" href="PT1M.json">View JSON</a></p><h1 class="detail">Details</h1></div><div><div class="product"><p class="version">Version:2.3.0</p><h1>NumericalData</h1><dt>ResourceID</dt><dd>spase://NOAA/NumericalData/POES/14/SEM/MEPED/KeyParameter/PT1M</dd><dl><dt>ResourceHeader</dt><dd><dl><dt>ResourceName</dt><dd>NOAA 14 Space Environment Monitor-1 (SEM-1) Medium Energy Proton and Electron Detector (MEPED) Re-processed Particle Count Rates, Fluxes, and Model Fields, 1 min Data</dd></dl><dl><dt>ReleaseDate</dt><dd>2019-08-05 15:03:35Z</dd></dl><dt>Description</dt><dd><p>TIROS/NOAA SEM MEPED Reprocessed Data Archive.</p>
+<pre><code>               This is the Reprocessed Version of the Medium Energy Proton Electron Detector, MEPED, Data Archive from the TIROS/NOAA Spacecraft. The raw Data from the NOAA Archive have been processed to 1 min Resolution. Magnetic Field Parameters including Geocentric Solar Magnetospheric, GSM, Bx, By, Bz, B/Bmin, and L Shell Values are derived by using four Magnetic Field Models: 1) International Geomagnetic Reference Field, IGRF, 2) Tsyganenko 1989, T89, 3) Tsyganenko 1996, T96, and 4) Tsyganenko 2001, T01. The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Input Parameters and Geomagnetic Indices obtained from the OMNI-2 Data Set. Detector Counts, Omnidirectional and Perpendicular Electron and Proton Fluxes are archived.
+                  
+               Processing was done by: S.F. Fung, L.C. Tan, and X. Shao, Space Physics Data Facility, Goddard Space Flight Center, NASA, Greenbelt, MD 20771, USA, e-mail: Shing.F.Fung@nasa.gov.</code></pre>
+</dd><dl><dt>Acknowledgement</dt><dd>S.F. Fung, Please acknowledge NOAA/NGDC for providing the raw Data.</dd></dl><dt>Contacts</dt><dd><table class="nested" cellspacing="0"><tr><th/><th class="center">Role</th><th class="center">Person</th></tr><tbody><tr><td>1.</td><td>PrincipalInvestigator</td><td><a target="_blank" href="http://spase.info/registry/render?id=spase://SMWG/Person/Donald.J.Williams">spase://SMWG/Person/Donald.J.Williams</a></td></tr><tr><td>2.</td><td>GeneralContact</td><td><a target="_blank" href="http://spase.info/registry/render?id=spase://SMWG/Person/Shing.F.Fung">spase://SMWG/Person/Shing.F.Fung</a></td></tr><tr><td>3.</td><td>MetadataContact</td><td><a target="_blank" href="http://spase.info/registry/render?id=spase://SMWG/Person/Robert.E.McGuire">spase://SMWG/Person/Robert.E.McGuire</a></td></tr><tr><td>4.</td><td>MetadataContact</td><td><a target="_blank" href="http://spase.info/registry/render?id=spase://SMWG/Person/Lee.Frost.Bargatze">spase://SMWG/Person/Lee.Frost.Bargatze</a></td></tr></tbody></table></dd><dl><dt>InformationURL</dt><dd><dl><dt>Name</dt><dd>NOAA/POES MEPED Data Reprocessing Documentation</dd></dl><dl><dt>URL</dt><dd><a target="_blank" href="https://cdaweb.gsfc.nasa.gov/NOAA_POES_MEPED_GSFC_Data_Reprocessing.doc">https://cdaweb.gsfc.nasa.gov/NOAA_POES_MEPED_GSFC_Data_Reprocessing.doc</a></dd></dl><dt>Description</dt><dd><p>NOAA/POES MEPED Data Documentation: NOAA-5 to NOAA-14 Data Reprocessed at GSFC/SPDF, authored by Tan, L.C., Fung, S.F., and X. Shao, internal White Paper hosted by the CDAWeb at Goddard Space Flight Center, GSFC.</p>
+</dd></dd></dl><dl><dt>InformationURL</dt><dd><dl><dt>Name</dt><dd>Polar Orbiting Environmental Satellites, POES, Web Page hosted by the NCEI at NOAA</dd></dl><dl><dt>URL</dt><dd><a target="_blank" href="https://www.ngdc.noaa.gov/stp/satellite/poes/">https://www.ngdc.noaa.gov/stp/satellite/poes/</a></dd></dl><dt>Description</dt><dd><p>Polar Orbiting Environmental Satellites, POES, Web Page hosted by the National Center for Environmental Information, NCEI, at the National Oceanic and Atmospheric Administration, NOAA</p>
+</dd></dd></dl><dt>PriorIDs</dt><dd>spase://NOAA/NumericalData/POES/14/SEM/MEPED/PT60S</dd><dd>spase://VSPO/NumericalData/P_NOAA14_HDR_SEM_MEPED</dd><dd>spase://VSPO/NumericalData/NOAA/14/SEM/PT60S</dd></dd></dl><dl><dt>AccessInformation</dt><dd><dl><dt>RepositoryID</dt><dd><a href="http://spase.info/spase://SMWG/Repository/NASA/GSFC/SPDF">spase://SMWG/Repository/NASA/GSFC/SPDF</a></dd></dl><dl><dt>Availability</dt><dd>Online</dd></dl><dl><dt>AccessRights</dt><dd>Open</dd></dl><dl><dt>AccessURL</dt><dd><dl><dt>Name</dt><dd>FTP access to files at SPDF</dd></dl><dl><dt>URL</dt><dd><a target="_blank" href="ftps://spdf.gsfc.nasa.gov/pub/data/noaa/noaa14/">ftps://spdf.gsfc.nasa.gov/pub/data/noaa/noaa14/</a></dd></dl><dt>Description</dt><dd><p>Access to Data in CDF Format via ftp from SPDF</p>
+</dd></dd></dl><dl><dt>AccessURL</dt><dd><dl><dt>Name</dt><dd>HTTP access to files at SPDF</dd></dl><dl><dt>URL</dt><dd><a target="_blank" href="https://spdf.gsfc.nasa.gov/pub/data/noaa/noaa14/">https://spdf.gsfc.nasa.gov/pub/data/noaa/noaa14/</a></dd></dl><dt>Description</dt><dd><p>Access to Data in CDF Format via http from SPDF</p>
+</dd></dd></dl><dl><dt>AccessURL</dt><dd><dl><dt>Name</dt><dd>CDAWeb</dd></dl><dl><dt>URL</dt><dd><a target="_blank" href="https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=NOAA14_MEPED1MIN_SEM&amp;index=sp_phys">https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=NOAA14_MEPED1MIN_SEM&amp;index=sp_phys</a></dd></dl><dl><dt>ProductKey</dt><dd>NOAA14_MEPED1MIN_SEM</dd></dl><dt>Description</dt><dd><p>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</p>
+</dd></dd></dl><dl><dt>Format</dt><dd>CDF</dd></dl><dl><dt>Encoding</dt><dd>None</dd></dl><dl><dt>Acknowledgement</dt><dd>S.F. Fung, Please acknowledge NOAA/NGDC for providing the raw Data. Please acknowledge the Data Providers and CDAWeb when using these Data.</dd></dl></dd></dl><dl><dt>ProcessingLevel</dt><dd>Calibrated</dd></dl><dt>InstrumentIDs</dt><dd><a target="_blank" href="http://spase.info/registry/render?id=spase://SMWG/Instrument/NOAA/14/SEM">spase://SMWG/Instrument/NOAA/14/SEM</a></dd><dl><dt>MeasurementType</dt><dd>EnergeticParticles</dd></dl><dl><dt>MeasurementType</dt><dd>Ephemeris</dd></dl><dl><dt>MeasurementType</dt><dd>InstrumentStatus</dd></dl><dl><dt>MeasurementType</dt><dd>MagneticField</dd></dl><dl><dt>TemporalDescription</dt><dd><dl><dt>TimeSpan</dt><dd><dl><dt>StartDate</dt><dd>1995-01-11 00:00:00.000</dd></dl><dl><dt>StopDate</dt><dd>2004-12-31 23:59:00.000</dd></dl></dd></dl><dl><dt>Cadence</dt><dd>PT1M</dd></dl></dd></dl><dl><dt class="parameter">Parameter #1</dt><dd><dl><dt>Name</dt><dd>Epoch Time Tags</dd></dl><dl><dt>ParameterKey</dt><dd>Epoch</dd></dl><dt>Description</dt><dd><p>Epoch Time Tags</p>
+</dd><dl><dt>Caveats</dt><dd>This Parameter exhibits an increasing Monotonic Progression.</dd></dl><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>AxisLabel</dt><dd>Epoch</dd></dl><dl><dt>ScaleMin</dt><dd>6.2419658619904e+13</dd></dl><dl><dt>ScaleMax</dt><dd>6.3745034619904e+13</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>02-Nov-1978 00:00:00.000</dd></dl><dl><dt>ValidMax</dt><dd>01-Jan-2020 00:00:00.000</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Support</dt><dd><dl><dt>SupportQuantity</dt><dd>Temporal</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #2</dt><dd><dl><dt>Name</dt><dd>Time PB5</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>Time_PB5</dd></dl><dt>Description</dt><dd><p>Time in PB5 Format: Year, Day, Milliseconds, Observation Time</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>AxisLabel</dt><dd>Time</dd></dl><dl><dt>ValueFormat</dt><dd>I6</dd></dl><dl><dt>ScaleMin</dt><dd>1978</dd></dl><dl><dt>ScaleMax</dt><dd>2020</dd></dl></dd></dl><dl><dt>Structure</dt><dd><dl><dt>Size</dt><dd>6</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>1978</dd></dl><dl><dt>ValidMax</dt><dd>2020</dd></dl><dl><dt>FillValue</dt><dd>-2147483648</dd></dl><dl><dt>Support</dt><dd><dl><dt>SupportQuantity</dt><dd>Temporal</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #3</dt><dd><dl><dt>Name</dt><dd>Day of Year, Fractional</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>Doy</dd></dl><dt>Description</dt><dd><p>Day of Year, DOY, Fractional</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>DOY</dd></dl><dl><dt>ValueFormat</dt><dd>F6.2</dd></dl><dl><dt>ScaleMin</dt><dd>1.0</dd></dl><dl><dt>ScaleMax</dt><dd>400.0</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>1.0</dd></dl><dl><dt>ValidMax</dt><dd>400.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Support</dt><dd><dl><dt>SupportQuantity</dt><dd>Temporal</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #4</dt><dd><dl><dt>Name</dt><dd>Spacecraft Position, Altitude, Geographic Spherical Coordinates</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>altitude</dd></dl><dt>Description</dt><dd><p>Spacecraft Position, Altitude, Geographic, GEO, Spherical Coordinates</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>km</dd></dl><dl><dt>UnitsConversion</dt><dd>1.0e3&gt;m</dd></dl><dl><dt>CoordinateSystem</dt><dd><dl><dt>CoordinateRepresentation</dt><dd>Spherical</dd></dl><dl><dt>CoordinateSystemName</dt><dd>GEO</dd></dl></dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>Altitude</dd></dl><dl><dt>ValueFormat</dt><dd>F7.2</dd></dl><dl><dt>ScaleMin</dt><dd>100.0</dd></dl><dl><dt>ScaleMax</dt><dd>1000.0</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>100.0</dd></dl><dl><dt>ValidMax</dt><dd>1000.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Support</dt><dd><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>SupportQuantity</dt><dd>Positional</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #5</dt><dd><dl><dt>Name</dt><dd>Spacecraft Position, Latitude, Geographic Spherical Coordinates</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>latitude</dd></dl><dt>Description</dt><dd><p>Spacecraft Position, Latitude, Geographic, GEO, Spherical Coordinates</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>°</dd></dl><dl><dt>UnitsConversion</dt><dd>0.0174532925&gt;rad</dd></dl><dl><dt>CoordinateSystem</dt><dd><dl><dt>CoordinateRepresentation</dt><dd>Spherical</dd></dl><dl><dt>CoordinateSystemName</dt><dd>GEO</dd></dl></dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>Latitude</dd></dl><dl><dt>ValueFormat</dt><dd>F6.2</dd></dl><dl><dt>ScaleMin</dt><dd>-90.0</dd></dl><dl><dt>ScaleMax</dt><dd>90.0</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>-90.0</dd></dl><dl><dt>ValidMax</dt><dd>90.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Support</dt><dd><dl><dt>Qualifier</dt><dd>DirectionAngle.ElevationAngle</dd></dl><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>SupportQuantity</dt><dd>Positional</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #6</dt><dd><dl><dt>Name</dt><dd>Spacecraft Position, Longitude, Geographic Spherical Coordinates</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>longitude</dd></dl><dt>Description</dt><dd><p>Spacecraft Position, Longitude, Geographic, GEO, Spherical Coordinates</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>°</dd></dl><dl><dt>UnitsConversion</dt><dd>0.0174532925&gt;rad</dd></dl><dl><dt>CoordinateSystem</dt><dd><dl><dt>CoordinateRepresentation</dt><dd>Spherical</dd></dl><dl><dt>CoordinateSystemName</dt><dd>GEO</dd></dl></dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>Longitude</dd></dl><dl><dt>ValueFormat</dt><dd>F6.2</dd></dl><dl><dt>ScaleMin</dt><dd>0.0</dd></dl><dl><dt>ScaleMax</dt><dd>360.0</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0</dd></dl><dl><dt>ValidMax</dt><dd>360.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Support</dt><dd><dl><dt>Qualifier</dt><dd>DirectionAngle.AzimuthAngle</dd></dl><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>SupportQuantity</dt><dd>Positional</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #7</dt><dd><dl><dt>Name</dt><dd>Spacecraft Position, Magnetic Local Time, Solar Magnetospheric Coordinates</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>sm_mlt</dd></dl><dt>Description</dt><dd><p>Spacecraft Position, Magnetic Local Time, Solar Magnetospheric, SM, Spherical Coordinates</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>°</dd></dl><dl><dt>UnitsConversion</dt><dd>0.0174532925&gt;rad</dd></dl><dl><dt>CoordinateSystem</dt><dd><dl><dt>CoordinateRepresentation</dt><dd>Spherical</dd></dl><dl><dt>CoordinateSystemName</dt><dd>SM</dd></dl></dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>SM_MLT</dd></dl><dl><dt>ValueFormat</dt><dd>F6.2</dd></dl><dl><dt>ScaleMin</dt><dd>0.0</dd></dl><dl><dt>ScaleMax</dt><dd>360.0</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0</dd></dl><dl><dt>ValidMax</dt><dd>360.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Support</dt><dd><dl><dt>Qualifier</dt><dd>DirectionAngle.AzimuthAngle</dd></dl><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>SupportQuantity</dt><dd>Positional</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #8</dt><dd><dl><dt>Name</dt><dd>Pitch Angle for MEPED Proton and Electron 0° Telescopes</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>pa0</dd></dl><dt>Description</dt><dd><p>Pitch Angle for MEPED Proton and Electron 0° Telescopes</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>°</dd></dl><dl><dt>UnitsConversion</dt><dd>0.0174532925&gt;rad</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>Pitch0</dd></dl><dl><dt>ValueFormat</dt><dd>F8.1</dd></dl><dl><dt>ScaleMin</dt><dd>0.0</dd></dl><dl><dt>ScaleMax</dt><dd>180.0</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0</dd></dl><dl><dt>ValidMax</dt><dd>180.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Particle</dt><dd><dl><dt>ParticleType</dt><dd>Electron</dd></dl><dl><dt>ParticleType</dt><dd>Proton</dd></dl><dl><dt>Qualifier</dt><dd>DirectionAngle.PolarAngle</dd></dl><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>ParticleQuantity</dt><dd>ArrivalDirection</dd></dl><dl><dt>AtomicNumber</dt><dd>1</dd></dl><dl><dt>AtomicNumber</dt><dd>1</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #9</dt><dd><dl><dt>Name</dt><dd>Pitch Angle for MEPED Proton 81° Telescope</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>pa81</dd></dl><dt>Description</dt><dd><p>Pitch Angle for MEPED Proton 81° Telescope</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>°</dd></dl><dl><dt>UnitsConversion</dt><dd>0.0174532925&gt;rad</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>Pitch81</dd></dl><dl><dt>ValueFormat</dt><dd>F8.1</dd></dl><dl><dt>ScaleMin</dt><dd>0.0</dd></dl><dl><dt>ScaleMax</dt><dd>180.0</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0</dd></dl><dl><dt>ValidMax</dt><dd>180.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Particle</dt><dd><dl><dt>ParticleType</dt><dd>Proton</dd></dl><dl><dt>Qualifier</dt><dd>DirectionAngle.PolarAngle</dd></dl><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>ParticleQuantity</dt><dd>ArrivalDirection</dd></dl><dl><dt>AtomicNumber</dt><dd>1</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #10</dt><dd><dl><dt>Name</dt><dd>Pitch Angle for MEPED Electron 83° Telescope</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>pa83</dd></dl><dt>Description</dt><dd><p>Pitch Angle for MEPED Electron 83° Telescope</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>°</dd></dl><dl><dt>UnitsConversion</dt><dd>0.0174532925&gt;rad</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>Pitch83</dd></dl><dl><dt>ValueFormat</dt><dd>F8.1</dd></dl><dl><dt>ScaleMin</dt><dd>0.0</dd></dl><dl><dt>ScaleMax</dt><dd>180.0</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0</dd></dl><dl><dt>ValidMax</dt><dd>180.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Particle</dt><dd><dl><dt>ParticleType</dt><dd>Electron</dd></dl><dl><dt>Qualifier</dt><dd>DirectionAngle.PolarAngle</dd></dl><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>ParticleQuantity</dt><dd>ArrivalDirection</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #11</dt><dd><dl><dt>Name</dt><dd>MEPED Detector, Data Quality Flag</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>quality</dd></dl><dt>Description</dt><dd><p>MEPED Detector, Data Quality Flag: 0=Good, -1=Bad</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>QualFlag</dd></dl><dl><dt>ValueFormat</dt><dd>I2</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>-1</dd></dl><dl><dt>ValidMax</dt><dd>0</dd></dl><dl><dt>FillValue</dt><dd>-32768</dd></dl><dl><dt>Support</dt><dd><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>SupportQuantity</dt><dd>InstrumentMode</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #12</dt><dd><dl><dt>Name</dt><dd>MEPED Count Rates 0° Telescopes</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>counts_0dg</dd></dl><dt>Description</dt><dd><p>MEPED Count Rates 0° Telescopes, four Proton and two Electron Energy Bands, counts_0dg</p>
+</dd><dl><dt>Caveats</dt><dd>Values of Element 0: '30-80kev_prtn(0_dg)' and Element 5: 'gt;30kev_elec(0_dg)' are unreliable and are currently not useable</dd></dl><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>s^-1</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>ValueFormat</dt><dd>E12.4</dd></dl><dl><dt>ScaleType</dt><dd>LogScale</dd></dl></dd></dl><dl><dt>Structure</dt><dd><dl><dt>Size</dt><dd>8</dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>1</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>80-250kev_prtn(0_dg)</dd></dl><dl><dt>Index</dt><dd>2</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>250-800kev_prtn(0_dg)</dd></dl><dl><dt>Index</dt><dd>3</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>800-2500kev_prtn(0_dg)</dd></dl><dl><dt>Index</dt><dd>4</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>&gt;2500kev_prtn(0_dg)</dd></dl><dl><dt>Index</dt><dd>5</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>6</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>&gt;100kev_elec(0_dg)</dd></dl><dl><dt>Index</dt><dd>7</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>&gt;300kev_elec(0_dg)</dd></dl><dl><dt>Index</dt><dd>8</dd></dl></dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0001</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+09</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Particle</dt><dd><dl><dt>ParticleType</dt><dd>Electron</dd></dl><dl><dt>ParticleType</dt><dd>Proton</dd></dl><dl><dt>Qualifier</dt><dd>Vector</dd></dl><dl><dt>ParticleQuantity</dt><dd>CountRate</dd></dl><dl><dt>AtomicNumber</dt><dd>1</dd></dl><dl><dt>AtomicNumber</dt><dd>1</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #13</dt><dd><dl><dt>Name</dt><dd>MEPED Count Rates, 81° and 83° Telescopes</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>counts_90dg</dd></dl><dt>Description</dt><dd><p>MEPED Count Rates, 81° and 83° Telescopes, two Electron Energy Bands</p>
+</dd><dl><dt>Caveats</dt><dd>Values for Elements 0-5: '30-80kev_prtn(81_dg)' '80-250kev_prtn(81_dg)' '250-800kev_prtn(81_dg)' '800-2500kev_prtn(81_dg)' 'gt;2500kev_prtn(81_dg)' and 'gt;30kev_elec(83_dg)' are currently not useable</dd></dl><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>s^-1</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>ValueFormat</dt><dd>E12.4</dd></dl><dl><dt>ScaleType</dt><dd>LogScale</dd></dl></dd></dl><dl><dt>Structure</dt><dd><dl><dt>Size</dt><dd>8</dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>1</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>2</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>3</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>4</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>5</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>6</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>&gt;100kev_elec(83_dg)</dd></dl><dl><dt>Index</dt><dd>7</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>&gt;300kev_elec(83_dg)</dd></dl><dl><dt>Index</dt><dd>8</dd></dl></dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0001</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+09</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Particle</dt><dd><dl><dt>ParticleType</dt><dd>Electron</dd></dl><dl><dt>ParticleType</dt><dd>Proton</dd></dl><dl><dt>Qualifier</dt><dd>Vector</dd></dl><dl><dt>ParticleQuantity</dt><dd>CountRate</dd></dl><dl><dt>AtomicNumber</dt><dd>1</dd></dl><dl><dt>AtomicNumber</dt><dd>1</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #14</dt><dd><dl><dt>Name</dt><dd>MEPED Count Rates, Omnidirectional Telescope</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>counts_omni</dd></dl><dt>Description</dt><dd><p>MEPED Count Rates, Omnidirectional Telescope, three Proton Energy Bands</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>s^-1</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>ValueFormat</dt><dd>E12.4</dd></dl><dl><dt>ScaleType</dt><dd>LogScale</dd></dl></dd></dl><dl><dt>Structure</dt><dd><dl><dt>Size</dt><dd>3</dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>&gt;16MeV_prtn(Omni)</dd></dl><dl><dt>Index</dt><dd>1</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>&gt;36MeV_prtn(Omni)</dd></dl><dl><dt>Index</dt><dd>2</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>&gt;80MeV_prtn(Omni)</dd></dl><dl><dt>Index</dt><dd>3</dd></dl></dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0001</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+09</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Particle</dt><dd><dl><dt>ParticleType</dt><dd>Proton</dd></dl><dl><dt>Qualifier</dt><dd>Vector</dd></dl><dl><dt>ParticleQuantity</dt><dd>CountRate</dd></dl><dl><dt>AtomicNumber</dt><dd>1</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #15</dt><dd><dl><dt>Name</dt><dd>MEPED calculated Perpendicular Proton Flux</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>Jperp_p</dd></dl><dt>Description</dt><dd><p>MEPED calculated Perpendicular Proton Flux, five Energy Bands</p>
+</dd><dl><dt>Caveats</dt><dd>Values are unreliable and should not be used.</dd></dl><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>(cm^2 s sr)^-1</dd></dl><dl><dt>UnitsConversion</dt><dd>1.0e4&gt;(m^2 s sr)</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>ValueFormat</dt><dd>E12.4</dd></dl><dl><dt>ScaleType</dt><dd>LogScale</dd></dl></dd></dl><dl><dt>Structure</dt><dd><dl><dt>Size</dt><dd>5</dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>[NOT NOW USEABLE] Jperp_(30-80kev_prtn)</dd></dl><dl><dt>Index</dt><dd>1</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>[NOT NOW USEABLE] Jperp_(80-250kev_prtn)</dd></dl><dl><dt>Index</dt><dd>2</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>[NOT NOW USEABLE] Jperp_(250-800kev_prtn)</dd></dl><dl><dt>Index</dt><dd>3</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>[NOT NOW USEABLE] Jperp_(800-2500kev_prtn)</dd></dl><dl><dt>Index</dt><dd>4</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>[NOT NOW USEABLE] Jperp_(&gt;2500kev_prtn)</dd></dl><dl><dt>Index</dt><dd>5</dd></dl></dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0001</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+10</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Particle</dt><dd><dl><dt>ParticleType</dt><dd>Proton</dd></dl><dl><dt>Qualifier</dt><dd>Perpendicular</dd></dl><dl><dt>Qualifier</dt><dd>Vector</dd></dl><dl><dt>ParticleQuantity</dt><dd>NumberFlux</dd></dl><dl><dt>AtomicNumber</dt><dd>1</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #16</dt><dd><dl><dt>Name</dt><dd>MEPED calculated Perpendicular Electron Flux</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>Jperp_e</dd></dl><dt>Description</dt><dd><p>MEPED calculated Perpendicular Electron Flux, two Energy Bands</p>
+</dd><dl><dt>Caveats</dt><dd>Values of Element 0 'Jperp &gt;30kev_elec' are unreliable and are currently not useable</dd></dl><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>(cm^2 s sr q^-1)^-1</dd></dl><dl><dt>UnitsConversion</dt><dd>1.0e4&gt;(m^2 s sr q^-1)^-1</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>ValueFormat</dt><dd>E12.4</dd></dl><dl><dt>ScaleType</dt><dd>LogScale</dd></dl></dd></dl><dl><dt>Structure</dt><dd><dl><dt>Size</dt><dd>3</dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>1</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>Jperp_(&gt;100kev_elec)</dd></dl><dl><dt>Index</dt><dd>2</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>Jperp_(&gt;300kev_elec)</dd></dl><dl><dt>Index</dt><dd>3</dd></dl></dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0001</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+10</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Particle</dt><dd><dl><dt>ParticleType</dt><dd>Electron</dd></dl><dl><dt>Qualifier</dt><dd>Perpendicular</dd></dl><dl><dt>Qualifier</dt><dd>Vector</dd></dl><dl><dt>ParticleQuantity</dt><dd>NumberFlux</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #17</dt><dd><dl><dt>Name</dt><dd>MEPED calculated Omnidirectional Proton Flux</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>Jomni_p</dd></dl><dt>Description</dt><dd><p>MEPED calculated omnidirectional Proton flux, three Energy Bands from the Omnidirectional Telescopes</p>
+</dd><dl><dt>Caveats</dt><dd>Values of Elements 0-4 are unreliable and are currently not useable</dd></dl><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>(cm^2 s sr)^-1</dd></dl><dl><dt>UnitsConversion</dt><dd>1.0e4&gt;(m^2 s sr)</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>ValueFormat</dt><dd>E12.4</dd></dl><dl><dt>ScaleType</dt><dd>LogScale</dd></dl></dd></dl><dl><dt>Structure</dt><dd><dl><dt>Size</dt><dd>8</dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>1</dd></dl><dl><dt>ValidMin</dt><dd>0.0001</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+10</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>2</dd></dl><dl><dt>ValidMin</dt><dd>0.0001</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+10</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>3</dd></dl><dl><dt>ValidMin</dt><dd>0.0001</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+10</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>4</dd></dl><dl><dt>ValidMin</dt><dd>0.0001</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+10</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>5</dd></dl><dl><dt>ValidMin</dt><dd>0.0001</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+10</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>Jomni (&gt;16MeV_prtn)</dd></dl><dl><dt>Index</dt><dd>6</dd></dl><dl><dt>Units</dt><dd>(cm^2 s sr)^-1</dd></dl><dl><dt>ValidMin</dt><dd>0.0001</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+10</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>Jomni (&gt;36MeV_prtn)</dd></dl><dl><dt>Index</dt><dd>7</dd></dl><dl><dt>Units</dt><dd>(cm^2 s sr)^-1</dd></dl><dl><dt>ValidMin</dt><dd>0.0001</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+10</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>Jomni (&gt;80MeV_prtn)</dd></dl><dl><dt>Index</dt><dd>8</dd></dl><dl><dt>Units</dt><dd>(cm^2 s sr)^-1</dd></dl><dl><dt>ValidMin</dt><dd>0.0001</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+10</dd></dl></dd></dl></dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Particle</dt><dd><dl><dt>ParticleType</dt><dd>Proton</dd></dl><dl><dt>Qualifier</dt><dd>Vector</dd></dl><dl><dt>ParticleQuantity</dt><dd>NumberFlux</dd></dl><dl><dt>AtomicNumber</dt><dd>1</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #18</dt><dd><dl><dt>Name</dt><dd>MEPED calculated Omnidirectional Electron Flux</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>Jomni_e</dd></dl><dt>Description</dt><dd><p>MEPED calculated Omnidirectional Electron Flux, two Energy Bands from the 0° Telescope and the 83° Telescopes</p>
+</dd><dl><dt>Caveats</dt><dd>Values of Element 0 'Jomni &gt;30kev_elec' are unreliable and should not be used.</dd></dl><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>(cm^2 s sr q^-1)^-1</dd></dl><dl><dt>UnitsConversion</dt><dd>1.0e4&gt;(m^2 s sr q^-1)^-1</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>ValueFormat</dt><dd>E12.4</dd></dl><dl><dt>ScaleType</dt><dd>LogScale</dd></dl></dd></dl><dl><dt>Structure</dt><dd><dl><dt>Size</dt><dd>3</dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>NOT NOW USEABLE</dd></dl><dl><dt>Index</dt><dd>1</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>Jomni (&gt;100kev_elec)</dd></dl><dl><dt>Index</dt><dd>2</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>Jomni (&gt;300kev_elec)</dd></dl><dl><dt>Index</dt><dd>3</dd></dl></dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0001</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+10</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Particle</dt><dd><dl><dt>ParticleType</dt><dd>Electron</dd></dl><dl><dt>Qualifier</dt><dd>Vector</dd></dl><dl><dt>ParticleQuantity</dt><dd>NumberFlux</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #19</dt><dd><dl><dt>Name</dt><dd>Magnetic Field Vector, Geocentric Solar Magnetospheric Cartesian Coordinates, IGRF Model</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>IGRF_gsmB</dd></dl><dt>Description</dt><dd><p>Magnetic Field Vector, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, calculated by using the International Geomagnetic Reference Field, IGRF, Model</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>nT</dd></dl><dl><dt>UnitsConversion</dt><dd>1.0e-9&gt;T</dd></dl><dl><dt>CoordinateSystem</dt><dd><dl><dt>CoordinateRepresentation</dt><dd>Cartesian</dd></dl><dl><dt>CoordinateSystemName</dt><dd>GSM</dd></dl></dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>ValueFormat</dt><dd>F8.1</dd></dl></dd></dl><dl><dt>Structure</dt><dd><dl><dt>Size</dt><dd>3</dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>IGRF_GSM_Bx</dd></dl><dl><dt>Index</dt><dd>1</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>IGRF_GSM_By</dd></dl><dl><dt>Index</dt><dd>2</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>IGRF_GSM_Bz</dd></dl><dl><dt>Index</dt><dd>3</dd></dl></dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>-100000.0</dd></dl><dl><dt>ValidMax</dt><dd>100000.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Field</dt><dd><dl><dt>Qualifier</dt><dd>Vector</dd></dl><dl><dt>FieldQuantity</dt><dd>Magnetic</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #20</dt><dd><dl><dt>Name</dt><dd>Ratio of the Magnetic Field Magnitude divided by the Minimum Magnitude on the Field Line, B/Bmin, Geocentric Solar Magnetospheric Cartesian Coordinates, IGRF Model</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>IGRF_B_Bmin</dd></dl><dt>Description</dt><dd><p>Ratio of the Magnetic Field Magnitude divided by the Minimum Magnitude on the Field Line, B/Bmin, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, calculated by using the International Geomagnetic Reference Field, IGRF, Model</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>IGRF_B/Bmin</dd></dl><dl><dt>ValueFormat</dt><dd>F9.2</dd></dl><dl><dt>ScaleMin</dt><dd>0.0</dd></dl><dl><dt>ScaleMax</dt><dd>1.0e+06</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+06</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Field</dt><dd><dl><dt>Qualifier</dt><dd>Magnitude</dd></dl><dl><dt>Qualifier</dt><dd>Ratio</dd></dl><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>FieldQuantity</dt><dd>Magnetic</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #21</dt><dd><dl><dt>Name</dt><dd>Spacecraft Position, McIlwain L Shell Value, Geocentric Solar Magnetospheric Cartesian Coordinates, IGRF Model</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>IGRF_Lm</dd></dl><dt>Description</dt><dd><p>Spacecraft Position, McIlwain L Shell Value, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, calculated by using the International Geomagnetic Reference Field, IGRF, Model</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>IGRF_Lm</dd></dl><dl><dt>ValueFormat</dt><dd>F8.4</dd></dl><dl><dt>ScaleMin</dt><dd>1.0</dd></dl><dl><dt>ScaleMax</dt><dd>15.0</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>1.0</dd></dl><dl><dt>ValidMax</dt><dd>15.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Support</dt><dd><dl><dt>Qualifier</dt><dd>Magnitude</dd></dl><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>SupportQuantity</dt><dd>Positional</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #22</dt><dd><dl><dt>Name</dt><dd>Magnetic Field Vector, Geocentric Solar Magnetospheric Cartesian Coordinates, T89 Model</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>T89_gsmB</dd></dl><dt>Description</dt><dd><p>Magnetic Field Vector, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, calculated by using the Tsyganenko 1989, T89, Model</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>nT</dd></dl><dl><dt>UnitsConversion</dt><dd>1.0e-9&gt;T</dd></dl><dl><dt>CoordinateSystem</dt><dd><dl><dt>CoordinateRepresentation</dt><dd>Cartesian</dd></dl><dl><dt>CoordinateSystemName</dt><dd>GSM</dd></dl></dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>ValueFormat</dt><dd>F8.1</dd></dl></dd></dl><dl><dt>Structure</dt><dd><dl><dt>Size</dt><dd>3</dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>T89_GSM_Bx</dd></dl><dl><dt>Index</dt><dd>1</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>T89_GSM_By</dd></dl><dl><dt>Index</dt><dd>2</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>T89_GSM_Bz</dd></dl><dl><dt>Index</dt><dd>3</dd></dl></dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>-100000.0</dd></dl><dl><dt>ValidMax</dt><dd>100000.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Field</dt><dd><dl><dt>Qualifier</dt><dd>Vector</dd></dl><dl><dt>FieldQuantity</dt><dd>Magnetic</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #23</dt><dd><dl><dt>Name</dt><dd>Ratio of the Magnetic Field Magnitude divided by the Minimum Magnitude on the Field Line, B/Bmin, Geocentric Solar Magnetospheric Cartesian Coordinates, T89 Model</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>T89_B_Bmin</dd></dl><dt>Description</dt><dd><p>Ratio of the Magnetic Field Magnitude divided by the Minimum Magnitude on the Field Line, B/Bmin, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, calculated by using the Tsyganenko 1989, T89, Model</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>T89_B/Bmin</dd></dl><dl><dt>ValueFormat</dt><dd>F9.2</dd></dl><dl><dt>ScaleMin</dt><dd>0.0</dd></dl><dl><dt>ScaleMax</dt><dd>1.0e+06</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+06</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Field</dt><dd><dl><dt>Qualifier</dt><dd>Magnitude</dd></dl><dl><dt>Qualifier</dt><dd>Ratio</dd></dl><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>FieldQuantity</dt><dd>Magnetic</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #24</dt><dd><dl><dt>Name</dt><dd>Spacecraft Position, McIlwain L Shell Value, Geocentric Solar Magnetospheric Cartesian Coordinates, T89 Model</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>T89_Lm</dd></dl><dt>Description</dt><dd><p>Spacecraft Position, McIlwain L Shell Value, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, calculated by using the Tsyganenko 1989, T89, Model</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>T89_Lm</dd></dl><dl><dt>ValueFormat</dt><dd>F8.4</dd></dl><dl><dt>ScaleMin</dt><dd>1.0</dd></dl><dl><dt>ScaleMax</dt><dd>15.0</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>1.0</dd></dl><dl><dt>ValidMax</dt><dd>15.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Support</dt><dd><dl><dt>Qualifier</dt><dd>Magnitude</dd></dl><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>SupportQuantity</dt><dd>Positional</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #25</dt><dd><dl><dt>Name</dt><dd>Magnetic Field Vector, Geocentric Solar Magnetospheric Cartesian Coordinates, T96 Model</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>T96_gsmB</dd></dl><dt>Description</dt><dd><p>Magnetic Field Vector, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, calculated by using the Tsyganenko 1996, T96, Model</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>nT</dd></dl><dl><dt>UnitsConversion</dt><dd>1.0e-9&gt;T</dd></dl><dl><dt>CoordinateSystem</dt><dd><dl><dt>CoordinateRepresentation</dt><dd>Cartesian</dd></dl><dl><dt>CoordinateSystemName</dt><dd>GSM</dd></dl></dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>ValueFormat</dt><dd>F8.1</dd></dl></dd></dl><dl><dt>Structure</dt><dd><dl><dt>Size</dt><dd>3</dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>T96_GSM_Bx</dd></dl><dl><dt>Index</dt><dd>1</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>T96_GSM_By</dd></dl><dl><dt>Index</dt><dd>2</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>T96_GSM_Bz</dd></dl><dl><dt>Index</dt><dd>3</dd></dl></dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>-100000.0</dd></dl><dl><dt>ValidMax</dt><dd>100000.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Field</dt><dd><dl><dt>Qualifier</dt><dd>Vector</dd></dl><dl><dt>FieldQuantity</dt><dd>Magnetic</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #26</dt><dd><dl><dt>Name</dt><dd>Ratio of the Magnetic Field Magnitude divided by the Minimum Magnitude on the Field Line, B/Bmin, Geocentric Solar Magnetospheric Cartesian Coordinates, T96 Model</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>T96_B_Bmin</dd></dl><dt>Description</dt><dd><p>Ratio of the Magnetic Field Magnitude divided by the Minimum Magnitude on the Field Line, B/Bmin, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, calculated by using the Tsyganenko 1996, T96, Model</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>T96_B/Bmin</dd></dl><dl><dt>ValueFormat</dt><dd>F9.2</dd></dl><dl><dt>ScaleMin</dt><dd>0.0</dd></dl><dl><dt>ScaleMax</dt><dd>1.0e+06</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+06</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Field</dt><dd><dl><dt>Qualifier</dt><dd>Magnitude</dd></dl><dl><dt>Qualifier</dt><dd>Ratio</dd></dl><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>FieldQuantity</dt><dd>Magnetic</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #27</dt><dd><dl><dt>Name</dt><dd>Spacecraft Position, McIlwain L Shell Value, Geocentric Solar Magnetospheric Cartesian Coordinates, T96 Model</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>T96_Lm</dd></dl><dt>Description</dt><dd><p>Spacecraft Position, McIlwain L Shell Value, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, calculated by using the Tsyganenko 1996, T96, Model</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>T96_Lm</dd></dl><dl><dt>ValueFormat</dt><dd>F8.4</dd></dl><dl><dt>ScaleMin</dt><dd>1.0</dd></dl><dl><dt>ScaleMax</dt><dd>15.0</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>1.0</dd></dl><dl><dt>ValidMax</dt><dd>15.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Support</dt><dd><dl><dt>Qualifier</dt><dd>Magnitude</dd></dl><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>SupportQuantity</dt><dd>Positional</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #28</dt><dd><dl><dt>Name</dt><dd>Magnetic Field Vector, Geocentric Solar Magnetospheric Cartesian Coordinates, T01 Model</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>T01_gsmB</dd></dl><dt>Description</dt><dd><p>Magnetic Field Vector, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, calculated by using the Tsyganenko 2001, T01, Model</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>Units</dt><dd>nT</dd></dl><dl><dt>UnitsConversion</dt><dd>1.0e-9&gt;T</dd></dl><dl><dt>CoordinateSystem</dt><dd><dl><dt>CoordinateRepresentation</dt><dd>Cartesian</dd></dl><dl><dt>CoordinateSystemName</dt><dd>GSM</dd></dl></dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>ValueFormat</dt><dd>F8.1</dd></dl></dd></dl><dl><dt>Structure</dt><dd><dl><dt>Size</dt><dd>3</dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>T01_GSM_Bx</dd></dl><dl><dt>Index</dt><dd>1</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>T01_GSM_By</dd></dl><dl><dt>Index</dt><dd>2</dd></dl></dd></dl><dl><dt>Element</dt><dd><dl><dt>Name</dt><dd>T01_GSM_Bz</dd></dl><dl><dt>Index</dt><dd>3</dd></dl></dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>-100000.0</dd></dl><dl><dt>ValidMax</dt><dd>100000.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Field</dt><dd><dl><dt>Qualifier</dt><dd>Vector</dd></dl><dl><dt>FieldQuantity</dt><dd>Magnetic</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #29</dt><dd><dl><dt>Name</dt><dd>Ratio of the Magnetic Field Magnitude divided by the Minimum Magnitude on the Field Line, B/Bmin, Geocentric Solar Magnetospheric Cartesian Coordinates, T01 Model</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>T01_B_Bmin</dd></dl><dt>Description</dt><dd><p>Ratio of the Magnetic Field Magnitude divided by the Minimum Magnitude on the Field Line, B/Bmin, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, calculated by using the Tsyganenko 2001, T01, Model</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>T01_B/Bmin</dd></dl><dl><dt>ValueFormat</dt><dd>F9.2</dd></dl><dl><dt>ScaleMin</dt><dd>0.0</dd></dl><dl><dt>ScaleMax</dt><dd>1.0e+06</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>0.0</dd></dl><dl><dt>ValidMax</dt><dd>1.0e+06</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Field</dt><dd><dl><dt>Qualifier</dt><dd>Magnitude</dd></dl><dl><dt>Qualifier</dt><dd>Ratio</dd></dl><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>FieldQuantity</dt><dd>Magnetic</dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #30</dt><dd><dl><dt>Name</dt><dd>Spacecraft Position, McIlwain L Shell Value, Geocentric Solar Magnetospheric Cartesian Coordinates, T01 Model</dd></dl><dl><dt>Set</dt><dd>Time Series defined by using: EPOCH</dd></dl><dl><dt>ParameterKey</dt><dd>T01_Lm</dd></dl><dt>Description</dt><dd><p>Spacecraft Position, McIlwain L Shell Value, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, calculated by using the Tsyganenko 2001, T01, Model</p>
+</dd><dl><dt>Cadence</dt><dd>PT1M</dd></dl><dl><dt>RenderingHints</dt><dd><dl><dt>DisplayType</dt><dd>TimeSeries</dd></dl><dl><dt>AxisLabel</dt><dd>T01_Lm</dd></dl><dl><dt>ValueFormat</dt><dd>F8.4</dd></dl><dl><dt>ScaleMin</dt><dd>1.0</dd></dl><dl><dt>ScaleMax</dt><dd>15.0</dd></dl></dd></dl><dl><dt>ValidMin</dt><dd>1.0</dd></dl><dl><dt>ValidMax</dt><dd>15.0</dd></dl><dl><dt>FillValue</dt><dd>-1.0e+31</dd></dl><dl><dt>Support</dt><dd><dl><dt>Qualifier</dt><dd>Magnitude</dd></dl><dl><dt>Qualifier</dt><dd>Scalar</dd></dl><dl><dt>SupportQuantity</dt><dd>Positional</dd></dl></dd></dl></dd></dl></div></div></div></div></body></html>

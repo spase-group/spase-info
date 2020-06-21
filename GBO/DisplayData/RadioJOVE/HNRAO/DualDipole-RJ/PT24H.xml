@@ -1,0 +1,34 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+ <Version>2.3.1</Version>
+ <DisplayData>
+  <ResourceID>spase://GBO/DisplayData/RadioJOVE/HNRAO/DualDipole-RJ/PT24H</ResourceID>
+  <ResourceHeader>
+   <ResourceName>Radio JOVE HNRAO Dual Dipole Array + JOVE receiver 20.1 MHz Stripcharts</ResourceName>
+   <ReleaseDate>2019-04-18T12:49:33</ReleaseDate>
+   <Description>Stripchart plots from output of the HNRAO Dual Dipole
+   Array and JOVE receiver operating at 20.1 MHz. The plots
+   are generated using the Radio-SkyPipe software. The Display Cadence will often
+   vary but 24 Hours is a reasonable maximum value for the timespan of
+   a single plot. The plots depict a single channel of data. The data is
+   presented as Antenna Temperature in units of kiloKelvins. The date
+   and the name of the observatory, HNRAO, is usually given across the
+   top of the plot. Time is presented in Universal Time (UT).</Description>
+   <Contact>
+    <PersonID>spase://SMWG/Person/James.Brown</PersonID>
+    <Role>DataProducer</Role>
+   </Contact>
+  </ResourceHeader>
+  <AccessInformation>
+   <RepositoryID>spase://SMWG/Repository/RadioJOVE</RepositoryID>
+   <AccessURL>
+    <Name>Radio JOVE Data Archive</Name>
+    <URL>http://radiojove.org/archive.html</URL>
+   </AccessURL>
+   <Format>JPEG</Format>
+  </AccessInformation>
+  <InstrumentID>spase://SMWG/Instrument/Ground/HNRAO/DualDipole-RJ</InstrumentID>
+  <MeasurementType>Waves.Passive</MeasurementType>
+  <SpectralRange>RadioFrequency</SpectralRange>
+  <DisplayCadence>PT24H</DisplayCadence>
+ </DisplayData>
+</Spase>

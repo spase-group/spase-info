@@ -1,0 +1,25 @@
+{
+  "Spase": {
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "xmlns": "http://www.spase-group.org/data/schema",
+    "xsi:schemaLocation": "http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd",
+    "Version": "2.2.2",
+    "Repository": {
+      "ResourceID": "spase://SMWG/Repository/Augsburg",
+      "ResourceHeader": {
+        "ResourceName": "AUGSBURG",
+        "ReleaseDate": "2014-07-24T20:37:12Z",
+        "Description": "",
+        "Contact": {
+          "PersonID": "spase://SMWG/Person/Mark.Engebretson",
+          "Role": "GeneralContact"
+        }
+      },
+      "AccessURL": {
+        "Name": "Augsburg Web Site",
+        "URL": "http://space.augsburg.edu/",
+        "Description": "Augsburg Web Site"
+      }
+    }
+  }
+}

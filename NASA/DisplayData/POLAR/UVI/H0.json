@@ -1,0 +1,60 @@
+{
+  "Spase": {
+    "xmlns": "http://www.spase-group.org/data/schema",
+    "Version": "2.2.2",
+    "DisplayData": {
+      "ResourceID": "spase://VSPO/DisplayData/POLAR/UVI/H0",
+      "ResourceHeader": {
+        "ResourceName": "Polar Ultraviolet Imager H0 High-Resolution Images",
+        "ReleaseDate": "2019-08-05T15:03:35Z",
+        "Description": "This data set contains detected and produced images of the ultraviolet light of the aurora, day and night. from the Polar UltraViolet Imager (UVI) experiment.",
+        "Contact": [
+          {
+            "PersonID": "spase://SMWG/Person/George.K.Parks",
+            "Role": "PrincipalInvestigator"
+          },
+          {
+            "PersonID": "spase://SMWG/Person/Peggy.Sloan",
+            "Role": "MetadataContact"
+          }
+        ],
+        "PriorID": "spase://VSPO/DisplayData/P_POLAR_HDR_UVI_H0"
+      },
+      "AccessInformation": {
+        "RepositoryID": "spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb",
+        "Availability": "Online",
+        "AccessRights": "Open",
+        "AccessURL": [
+          {
+            "Name": "FTP access to files at SPDF",
+            "URL": "ftps://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_k0"
+          },
+          {
+            "Name": "HTTP access to files at SPDF",
+            "URL": "https://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_k0",
+            "Description": "In CDF via HTTP from CDAWeb"
+          },
+          {
+            "Name": "CDAWeb",
+            "URL": "https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H0_UVI&index=sp_phys",
+            "ProductKey": "PO_H0_UVI"
+          }
+        ],
+        "Format": "CDF"
+      },
+      "ProcessingLevel": "Calibrated",
+      "ProviderProcessingLevel": "Level 1",
+      "InstrumentID": "spase://SMWG/Instrument/POLAR/UVI",
+      "MeasurementType": "ImageIntensity",
+      "TemporalDescription": {
+        "TimeSpan": {
+          "StartDate": "1996-03-23T15:56:15",
+          "StopDate": "2008-02-10T18:40:28"
+        }
+      },
+      "SpectralRange": "Ultraviolet",
+      "ObservedRegion": "Earth.NearSurface.Ionosphere",
+      "Caveats": "UVI Key Parameters are summary data only.  In some cases parameters such as pointing and calibration were not be adequate to support quantitative scientific analysis.  They should not to be used for presentation, publication, or analysis. The UVI KP CDF files only contain output for normal instrument mode when the spacecraft is in 9.2 second science telemetry mode.  No Key Parameters are produced when the spacecraft is in maneuver telemetry mode, when UVI is in star (fast) mode, and when the despun platform is pointed away from the earth."
+    }
+  }
+}

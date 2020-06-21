@@ -1,0 +1,24 @@
+{
+  "Spase": {
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "xmlns": "http://www.spase-group.org/data/schema",
+    "xsi:schemaLocation": "http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd",
+    "Version": "2.2.2",
+    "Instrument": {
+      "ResourceID": "spase://SMWG/Instrument/Meudon/Spectroheliograph",
+      "ResourceHeader": {
+        "ResourceName": "Meudon Spectroheliograph",
+        "ReleaseDate": "2012-04-24T00:00:00Z",
+        "Description": "The spectroheliograph provides images of the \r\nsolar photosphere (blue wing of the CaII K 3934 Angstrom line, \r\nor K1v) and chromosphere (centre of the CaII K 3934 Angstrom line, \r\nor K3; and H-alpha 6563 Angstrom).  Data are acquired once a day \r\nby performing scans of the solar disk using a entrance slit and \r\nan exit slit.",
+        "Contact": {
+          "PersonID": "spase://SMWG/Person/Jean-Marie.Malherbe",
+          "Role": "GeneralContact"
+        },
+        "PriorID": "spase://vspo/Instrument/357"
+      },
+      "InstrumentType": "Imager",
+      "InvestigationName": "Meudon Spectroheliograph",
+      "ObservatoryID": "spase://SMWG/Observatory/Meudon"
+    }
+  }
+}

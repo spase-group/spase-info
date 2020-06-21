@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema   http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <NumericalData>
+    <ResourceID>spase://GBO/NumericalData/MACCS/MAG/PT5.00S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MACCS Ground Magnetometer Data</ResourceName>
+      <ReleaseDate>2019-03-04T10:59:51.000Z</ReleaseDate>
+      <Description>MACCS (Magnetometer Array for Cusp and Cleft Studies) high resolution ground magnetometer digital files and plots</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mark.Engebretson</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://VSPO/NumericalData/P_MACCS_HDR_AUGSBURG</PriorID>
+      <PriorID>spase://VSPO/NumericalData/MACCS/MAG/PT5.00S</PriorID>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/Augsburg</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>MACCS web site at Augsburg College</Name>
+        <URL>http://space.augsburg.edu/maccs/</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <MeasurementType>MagneticField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1992-08-10T00:00:00</StartDate>
+        <StopDate>2003-12-31T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT5.00S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Earth.Surface</ObservedRegion>
+  </NumericalData>
+</Spase>

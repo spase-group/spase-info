@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>SPASE Resource Description</title><script type="application/ld+json">{
+		"@context": "https://schema.org/",
+		"@type" :"Dataset",
+		"name": "Australian Space Weather Services Davis Ionogram",
+     
+ 		"description": "Ionograms are an image of frequency versus time delay (virtual height) of HF echoes from the ionosphere recorded by an ionosonde. An ionosonde is a swept frequency HF pulsed radar used to monitor the ionosphere. SWS WDC has archived ionogram data from 26 stations, 12 of them are still active at present. An Lowell Digisonde-Portable-Sounder-4D (DPS4D) has been sounding since 18/12/2001 at Davis. The Lowell vertical sounding ionosondes normally sweep in frequency from about 0.5 to 30 MHz. Frequency step is selectable to 1kHz. The step interval is variable, becoming more coarse at higher frequencies as ionograms are generally displayed on a logarithmic scale. Every ten minutes, a Ionogram data file is recorded, cleaned and the cleaned ionogram is transfered to SWS Sydney head office for autoscaling and further analysis. The raw ionogram file is recorded in a DVD monthly, which will be posted to Sydney SWS head office every month. During 02/06/1994 to 06/01/2000, Davis also had an IPS 4D ionosonde, and during 07/02/2000 to 01/12/2001, an IPS 5D ionosonde. SWS WDC archives all raw ionogram files and cleaned ionogram files. The Davis digital clean ionogram data is available since 01/08/1994, and digital raw ionogram data since 02/06/1994. The Davis scaled hourly ionospheric data include parameters of foF2, foF1, FoE, foEs, fbEs, fmin, fxl, f'scaling F/s, M(3000)F2, h'F2, h'F, h'E, h'Es, h'Scaling R/S and Type Es. They are avalable since 01/01/1985. The Davis median data of foF2 and M(3000)F2 are available since 03/1985.
+      ",
+		"abstract": "Ionograms are an image of frequency versus time delay (virtual height) of HF echoes from the ionosphere recorded by an ionosonde. An ionosonde is a swept frequency HF pulsed radar used to monitor the ionosphere. SWS WDC has archived ionogram data from 26 stations, 12 of them are still active at present. An Lowell Digisonde-Portable-Sounder-4D (DPS4D) has been sounding since 18/12/2001 at Davis. The Lowell vertical sounding ionosondes normally sweep in frequency from about 0.5 to 30 MHz. Frequency step is selectable to 1kHz. The step interval is variable, becoming more coarse at higher frequencies as ionograms are generally displayed on a logarithmic scale. Every ten minutes, a Ionogram data file is recorded, cleaned and the cleaned ionogram is transfered to SWS Sydney head office for autoscaling and further analysis. The raw ionogram file is recorded in a DVD monthly, which will be posted to Sydney SWS head office every month. During 02/06/1994 to 06/01/2000, Davis also had an IPS 4D ionosonde, and during 07/02/2000 to 01/12/2001, an IPS 5D ionosonde. SWS WDC archives all raw ionogram files and cleaned ionogram files. The Davis digital clean ionogram data is available since 01/08/1994, and digital raw ionogram data since 02/06/1994. The Davis scaled hourly ionospheric data include parameters of foF2, foF1, FoE, foEs, fbEs, fmin, fxl, f'scaling F/s, M(3000)F2, h'F2, h'F, h'E, h'Es, h'Scaling R/S and Type Es. They are avalable since 01/01/1985. The Davis median data of foF2 and M(3000)F2 are available since 03/1985.
+      ",
+		"temporalCoverage": "1990.10.06  2009.30.06",
+		"keywords": [  "Ionogram", "Ionospheric data", "Ionosphere", "Median ionospheric data", "Hourly ionospheric data", "Scaled parameters", "", "" ],
+        "audience":{
+            "@type": "Audience",
+            "audienceType": ["Space Physicist", "Space Community", "Data Scientists", "Machine Learning Users"]
+        }
+	  }
+	  </script><style>
+/* http://spase-group.org/tools/xmlviewer */
+/* v1.0 | 20160908 */
+
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+body {
+	background-color: #f0f0f0; // #eaf5e9; #277bc0; #d3d3f9;
+	color: black;
+	font-family: Verdana, Arial, sans-serif; 
+	font-size:12px; 
+	line-height: 1.2;
+}
+ 
+h1,h2,h3,h4,h5,h6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight:bold;
+}
+
+h1 {
+	font-size: 140%;
+}
+
+h2 {
+	font-size: 120%;
+}
+
+h3 {
+	font-size: 110%;
+	font-style: oblique;
+}
+
+p {
+	margin-bottom: 0.75ex;
+}
+
+dt {
+	margin-top: 5px;
+	padding-left: 5px;
+	border-top: 1px solid #DDD;
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 5ex;
+}
+
+a:link,
+a:visited {
+   color: #277bc0;/* #339;*/
+   font-weight:bolder; 
+   text-decoration:none; 
+}
+
+a:hover {
+   color: blue;
+   font-weight:bolder; 
+   text-decoration:underline; 
+}
+
+ul {
+	list-style: square inside ;
+	margin-bottom: 0.75ex;
+}
+
+table {
+   border: thin solid #666;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+thead,tbody {
+   border: thin solid #666;
+}
+
+td, th {
+   margin: 0;
+	padding: 2px 2px 2px 2px;
+}
+
+th {
+	font-style: oblique;
+}
+
+h1.detail {
+}
+
+.header {
+	width:100%;
+	padding: 1em 10px 1em 10px;
+	color: #fff;
+	background: #5e87b0;
+	font-weight: bold;
+	text-shadow: 0 /*{b-bar-shadow-x}*/ 1px /*{b-bar-shadow-y}*/ 1px /*{b-bar-shadow-radius}*/ #3e6790 /*{b-bar-shadow-color}*/;
+	text-align: center;
+	font-size: 16px;
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	outline: 0 !important;
+}
+
+.inset {
+	margin-left: 22%;
+}
+
+.page {
+	padding: 10px 3% 10px 3%;
+}
+
+div.product {
+	background-color: white;
+	border: thin solid #333;
+	padding: 10px 15px 10px 15px;
+	margin-top: 10px;
+}
+
+div.parameter {
+	margin-top: 10px;
+	padding: 5px 10px 10px 10px;
+	border: thin dotted #333;
+	background-color: #ebebeb;
+}
+
+dt.parameter {
+	margin-top: 10px;
+	padding: 5px 10px 10px 10px;
+	border: thin dotted #333;
+	background-color: #ebebeb;
+}
+
+#toc {
+   border: thin solid #333;
+   background-color: #F5F5F5; 
+   padding: 10px 15px 10px 15px;
+   margin-left: 5%;
+   margin-right: 5%;
+   margin-bottom: 30px;
+}
+
+#toc ol, ul, li {
+	padding-left: 5ex;
+}
+
+#toc ol {
+	list-style-type: decimal;
+	list-style-position: inside; 
+}
+
+#toc ul {
+	list-style-type: square;
+	list-style-position: inside; 
+}
+
+p.version {
+  float: right;
+  width: 100%;
+  margin-top: 5px;
+  text-align: right;
+  font-size: x-small;
+}
+
+p.right {
+  float: right;
+  text-align: right;
+}
+
+.box-title {
+	font-size: 120%;
+	font-weight:bold;
+	text-align: center;
+	border-bottom: 1px solid #DDD;
+}
+
+ul.list {
+	list-style-position: outside;
+	padding-left: 1.5em;
+}
+
+li.list {
+	text-align: left;
+	padding-left: 0px;
+}
+
+.no-break {
+	white-space: nowrap;
+}
+
+p.author {
+	font-size: 120%;
+}
+
+div.brand {
+	width: 100%;
+	text-align: right;
+}
+
+div.abstract {
+	display: table;
+	position: relative;
+	width: 100%;
+}
+
+div.citation {
+}
+
+div.access {
+	float: left;
+	width: 20%;
+	background-color: white;
+	border: thin solid #333;
+	padding: 5px 5px 5px 5px;
+	margin-right: 1em;
+}
+
+a.xml-logo:link,
+a.xml-logo:visited {
+   background: #ff6600;
+   color: #ffffff;
+   font-weight:bolder; 
+   text-decoration:none; 
+   padding-left:2px;
+   padding-right:2px;
+}
+a.xml-logo:hover {
+   text-decoration:underline; 
+}
+
+	  </style></head><body><div><a id="top"/></div><div class="header"><div class="middle">SPASE.info</div></div><div class="page"><div class="spase"><div class="abstract"><div class="access"><p class="box-title">Data Access</p><ul class="list"><li class="list"><a target="_blank" href="ftp://ftp-out.ips.gov.au/wdc/wdc_ion_archive/">FTP access to raw and clean ionogram data</a></li></ul></div><div class="citation inset"><h1><a name="spase://ASWS/NumericalData/Ionogram/Dav_Ionogram">Australian Space Weather Services Davis Ionogram</a></h1><p><dt>ResourceID</dt><dd>spase://ASWS/NumericalData/Ionogram/Dav_Ionogram</dd></p><p><dt>Description</dt><dd><p>Ionograms are an image of frequency versus time delay (virtual height) of HF echoes from the ionosphere recorded by an ionosonde. An ionosonde is a swept frequency HF pulsed radar used to monitor the ionosphere. SWS WDC has archived ionogram data from 26 stations, 12 of them are still active at present. An Lowell Digisonde-Portable-Sounder-4D (DPS4D) has been sounding since 18/12/2001 at Davis. The Lowell vertical sounding ionosondes normally sweep in frequency from about 0.5 to 30 MHz. Frequency step is selectable to 1kHz. The step interval is variable, becoming more coarse at higher frequencies as ionograms are generally displayed on a logarithmic scale. Every ten minutes, a Ionogram data file is recorded, cleaned and the cleaned ionogram is transfered to SWS Sydney head office for autoscaling and further analysis. The raw ionogram file is recorded in a DVD monthly, which will be posted to Sydney SWS head office every month. During 02/06/1994 to 06/01/2000, Davis also had an IPS 4D ionosonde, and during 07/02/2000 to 01/12/2001, an IPS 5D ionosonde. SWS WDC archives all raw ionogram files and cleaned ionogram files. The Davis digital clean ionogram data is available since 01/08/1994, and digital raw ionogram data since 02/06/1994. The Davis scaled hourly ionospheric data include parameters of foF2, foF1, FoE, foEs, fbEs, fmin, fxl, f'scaling F/s, M(3000)F2, h'F2, h'F, h'E, h'Es, h'Scaling R/S and Type Es. They are avalable since 01/01/1985. The Davis median data of foF2 and M(3000)F2 are available since 03/1985.</p>
+</dd></p></div></div><div><p class="right"><a target="_blank" href="Dav_Ionogram.xml">View XML</a> | <a target="_blank" href="Dav_Ionogram.json">View JSON</a></p><h1 class="detail">Details</h1></div><div><div class="product"><p class="version">Version:2.2.3</p><h1>NumericalData</h1><dt>ResourceID</dt><dd>spase://ASWS/NumericalData/Ionogram/Dav_Ionogram</dd><dl><dt>ResourceHeader</dt><dd><dl><dt>ResourceName</dt><dd>Australian Space Weather Services Davis Ionogram</dd></dl><dl><dt>AlternateName</dt><dd/></dl><dl><dt>ReleaseDate</dt><dd>2016-06-21 17:00:00Z</dd></dl><dt>Description</dt><dd><p>Ionograms are an image of frequency versus time delay (virtual height) of HF echoes from the ionosphere recorded by an ionosonde. An ionosonde is a swept frequency HF pulsed radar used to monitor the ionosphere. SWS WDC has archived ionogram data from 26 stations, 12 of them are still active at present. An Lowell Digisonde-Portable-Sounder-4D (DPS4D) has been sounding since 18/12/2001 at Davis. The Lowell vertical sounding ionosondes normally sweep in frequency from about 0.5 to 30 MHz. Frequency step is selectable to 1kHz. The step interval is variable, becoming more coarse at higher frequencies as ionograms are generally displayed on a logarithmic scale. Every ten minutes, a Ionogram data file is recorded, cleaned and the cleaned ionogram is transfered to SWS Sydney head office for autoscaling and further analysis. The raw ionogram file is recorded in a DVD monthly, which will be posted to Sydney SWS head office every month. During 02/06/1994 to 06/01/2000, Davis also had an IPS 4D ionosonde, and during 07/02/2000 to 01/12/2001, an IPS 5D ionosonde. SWS WDC archives all raw ionogram files and cleaned ionogram files. The Davis digital clean ionogram data is available since 01/08/1994, and digital raw ionogram data since 02/06/1994. The Davis scaled hourly ionospheric data include parameters of foF2, foF1, FoE, foEs, fbEs, fmin, fxl, f'scaling F/s, M(3000)F2, h'F2, h'F, h'E, h'Es, h'Scaling R/S and Type Es. They are avalable since 01/01/1985. The Davis median data of foF2 and M(3000)F2 are available since 03/1985.</p>
+</dd><dl><dt>Acknowledgement</dt><dd>We are thankful to AAD and the Space Weather Network, Bureau of Meteorology of Australia for the observations of Davis ionogram data.</dd></dl><dt>Contacts</dt><dd><table class="nested" cellspacing="0"><tr><th/><th class="center">Role</th><th class="center">Person</th></tr><tbody><tr><td>1.</td><td>GeneralContact</td><td><a target="_blank" href="http://spase.info/registry/render?id=spase://SMWG/Person/Kehe.Wang">spase://SMWG/Person/Kehe.Wang</a></td></tr><tr><td>2.</td><td>MetadataContact</td><td><a target="_blank" href="http://spase.info/registry/render?id=spase://SMWG/Person/Kehe.Wang">spase://SMWG/Person/Kehe.Wang</a></td></tr></tbody></table></dd><dl><dt>InformationURL</dt><dd><dl><dt>Name</dt><dd>World Data Centre: Data Display and Download: Hourly Ionospheirc Data</dd></dl><dl><dt>URL</dt><dd><a target="_blank" href="http://www.sws.bom.gov.au/World_Data_Centre/1/3">http://www.sws.bom.gov.au/World_Data_Centre/1/3</a></dd></dl><dt>Description</dt><dd><p>includes browse display interface, button to get yearly data file and link to data availability chart</p>
+</dd><dl><dt>Language</dt><dd>en</dd></dl></dd></dl><dl><dt>InformationURL</dt><dd><dl><dt>Name</dt><dd>World Data Centre: Data Display and Download: Monthly Median Ionospheirc Data</dd></dl><dl><dt>URL</dt><dd><a target="_blank" href="http://www.sws.bom.gov.au/World_Data_Centre/1/4">http://www.sws.bom.gov.au/World_Data_Centre/1/4</a></dd></dl><dt>Description</dt><dd><p>includes browse display interface, button to get the median data file and link to data availability chart</p>
+</dd><dl><dt>Language</dt><dd>en</dd></dl></dd></dl><dl><dt>InformationURL</dt><dd><dl><dt>Name</dt><dd>Documentation</dd></dl><dl><dt>URL</dt><dd><a target="_blank" href="ftp://ftp-out.ips.gov.au/wdc/wdc_ion_archive/doc/">ftp://ftp-out.ips.gov.au/wdc/wdc_ion_archive/doc/</a></dd></dl><dt>Description</dt><dd><p>includes descriptions of data format of raw ionogram data and clean ionogram data</p>
+</dd><dl><dt>Language</dt><dd>en</dd></dl></dd></dl><dl><dt>InformationURL</dt><dd><dl><dt>Name</dt><dd>Software</dd></dl><dl><dt>URL</dt><dd><a target="_blank" href="ftp://ftp-out.ips.gov.au/wdc/wdc_tools/ionogram_viewers/">ftp://ftp-out.ips.gov.au/wdc/wdc_tools/ionogram_viewers/</a></dd></dl><dt>Description</dt><dd><p>Softwares to view clean ionogram data with scaling function</p>
+</dd><dl><dt>Language</dt><dd>en</dd></dl></dd></dl><dl><dt>InformationURL</dt><dd><dl><dt>Name</dt><dd>Real Time Display</dd></dl><dl><dt>URL</dt><dd><a target="_blank" href="http://www.sws.bom.gov.au/HF_Systems/1/3">http://www.sws.bom.gov.au/HF_Systems/1/3</a></dd></dl><dt>Description</dt><dd><p>Online viewer of Real Time clean ionogram data</p>
+</dd><dl><dt>Language</dt><dd>en</dd></dl></dd></dl></dd></dl><dl><dt>AccessInformation</dt><dd><dl><dt>RepositoryID</dt><dd><a href="http://spase.info/spase://SMWG/Repository/SWS">spase://SMWG/Repository/SWS</a></dd></dl><dl><dt>Availability</dt><dd>Online</dd></dl><dl><dt>AccessRights</dt><dd>Open</dd></dl><dl><dt>AccessURL</dt><dd><dl><dt>Name</dt><dd>FTP access to raw and clean ionogram data</dd></dl><dl><dt>URL</dt><dd><a target="_blank" href="ftp://ftp-out.ips.gov.au/wdc/wdc_ion_archive/">ftp://ftp-out.ips.gov.au/wdc/wdc_ion_archive/</a></dd></dl><dt>Description</dt><dd><p>FTP access to the raw and clean ionogram data of Davis IPS 4D (dav4d), and IPS 5D (dav5d) ionosondes and Lowell ionosonde (davis)</p>
+</dd><dl><dt>Language</dt><dd>en</dd></dl></dd></dl><dl><dt>Format</dt><dd>Binary</dd></dl><dl><dt>Encoding</dt><dd>None</dd></dl><dl><dt>Acknowledgement</dt><dd/></dl></dd></dl><dl><dt>ProviderProcessingLevel</dt><dd>The original ionogram data are raw data, they are then cleaned by reducing noise signals at the station.
+	The manually scaled data is calibrated and the autoscaled data is uncalibrated.</dd></dl><dt>InstrumentIDs</dt><dd><a target="_blank" href="http://spase.info/registry/render?id=spase://ASWS/Instrument/Ground/Davis/Ionosonde">spase://ASWS/Instrument/Ground/Davis/Ionosonde</a></dd><dl><dt>MeasurementType</dt><dd>Waves.Active</dd></dl><dl><dt>TemporalDescription</dt><dd><dl><dt>TimeSpan</dt><dd><dl><dt>StartDate</dt><dd>1985-01-01 00:00:00Z</dd></dl><dl><dt>RelativeStopDate</dt><dd>-P1D</dd></dl><dl><dt>Note</dt><dd>The earliest hourly ionospheric data since 01/01/1985. Digital clean ionogram data are current to within a day.</dd></dl></dd></dl></dd></dl><dl><dt>SpectralRange</dt><dd>RadioFrequency</dd></dl><dl><dt>ObservedRegion</dt><dd>Earth.NearSurface.Ionosphere</dd></dl><dl><dt>Caveats</dt><dd/></dl><dt>Keywords</dt><dd>Ionogram</dd><dd>Ionospheric data</dd><dd>Ionosphere</dd><dd>Median ionospheric data</dd><dd>Hourly ionospheric data</dd><dd>Scaled parameters</dd><dd/><dd/><dl><dt class="parameter">Parameter #1</dt><dd><dl><dt>Name</dt><dd>Frequency</dd></dl><dt>Description</dt><dd><p>Frequencies used to sonde ionopshere</p>
+</dd><dl><dt>Caveats</dt><dd/></dl><dl><dt>Cadence</dt><dd>PT10M</dd></dl><dl><dt>Units</dt><dd>MHz</dd></dl><dl><dt>Wave</dt><dd><dl><dt>WaveType</dt><dd>Electromagnetic</dd></dl><dl><dt>Qualifier</dt><dd>Directional</dd></dl><dl><dt>Qualifier</dt><dd>Group</dd></dl><dl><dt>WaveQuantity</dt><dd>Frequency</dd></dl><dl><dt>FrequencyRange</dt><dd><dl><dt>SpectralRange</dt><dd>RadioFrequency</dd></dl><dl><dt>Low</dt><dd>0.5</dd></dl><dl><dt>High</dt><dd>30.0</dd></dl><dl><dt>Units</dt><dd>MHz</dd></dl></dd></dl></dd></dl></dd></dl><dl><dt class="parameter">Parameter #2</dt><dd><dl><dt>Name</dt><dd>Virtual Height</dd></dl><dt>Description</dt><dd><p>The apparent height of an ionospheric layer deduced from the time delay of a reflected radio pulse upon the assumption that it travelled at the speed of light over its entire path. However, the radio wave actually slows down as it is refracted so that the virtual height is greater than the true height of the refracting layer. Lowell DPS4D height range is 0-1200KM ( 0 KM used for self-calibration).</p>
+</dd><dl><dt>Caveats</dt><dd/></dl><dl><dt>Cadence</dt><dd>PT10M</dd></dl><dl><dt>Units</dt><dd>Km</dd></dl><dl><dt>ValidMin</dt><dd>0.0</dd></dl><dl><dt>ValidMax</dt><dd>1200</dd></dl><dl><dt>Mixed</dt><dd><dl><dt>MixedQuantity</dt><dd>Other</dd></dl></dd></dl></dd></dl><dl><dt>Extension</dt><dd/></dl></div></div></div></div></body></html>
